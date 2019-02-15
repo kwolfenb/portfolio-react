@@ -21,6 +21,11 @@ _This coding portfolio displays information about me in 3 categories: Home, Proj
 ### Future Specs
 - _Program will be updated to include more interactive elements including dynamic routing to individual project pages showing more details and the option to expand descriptions._
 
+### Future Specs
+- _Clone Repository from Github._
+- _Download all packages by typing "npm install" in the terminal._
+- _To check for error type "npm run lint". To have ESLint attempt to fix these automatically type "npm run lint-fix"._
+- _To run the program type "npm run start" and open application in a browser._
 
 ## Page Layout
 

@@ -8,20 +8,33 @@ function Contact() {
       <style jsx>{`
       
         .contactInfo {
+          margin-top: 5%;
           text-align: center;
+        }
+
+        .contactInfo h2 {
+          font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        }
+
+        .contactInfo hr {
+          width: 33%;
+        }
+
+        .contactInfo p {
+          font-size: 16px;
         }
         #resume {
           width: 200px;
           height: auto;
-          border-radius: 5px;
-          border: solid #3b4375 1px;
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          border: solid #babcc1 1px;
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 8px 0 rgba(0, 0, 0, 0.19);
         }
       `}
       </style>
       <div className='contactInfo'>
-        <h1>Contact Info</h1>
-        <p>Github: <a href='https://github.com/kwolfenb'>github.com/kwolfenb</a> | LinkedIn: <a href='https://www.linkedin.com/in/kwolfenberger/'>linkedin.com/in/kwolfenberger</a> | Resume </p>
+        <h2>Contact Info</h2>
+        <hr />
+        <p><a href='https://github.com/kwolfenb'>Github</a> | <a href='https://www.linkedin.com/in/kwolfenberger/'>LinkedIn</a></p>
         <p>Seattle, WA</p>
         <h4>Resume:</h4>
         <Link to='/resume'>

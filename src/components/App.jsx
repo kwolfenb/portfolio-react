@@ -13,6 +13,13 @@ import Details from './Details'
 function App () {
   return (
     <div>
+      <style jsx>
+        {`
+          body {
+            background-color: #e8e8ed;
+          }
+        `}
+      </style>
       <Header />
       <Switch>
         <Route exact path='/' component={Home} />

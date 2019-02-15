@@ -16,7 +16,7 @@ function ProjectList () {
           padding: 10px;
           padding-top: 0%;
           margin: 10px;
-          background: linear-gradient(#b5ccf2, white);
+          background: linear-gradient(#a4aed6, white);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
         }
 

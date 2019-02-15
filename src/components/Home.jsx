@@ -9,6 +9,10 @@ function Home() {
         margin: auto;
         width: 60%;
         margin-top: 5%;
+        border: solid #dce3ef 2px;
+        border-radius: 6px;
+        background-color: white;
+        padding: 20px;
       }
         img#profile {
           float: right;
@@ -16,8 +20,9 @@ function Home() {
           margin-left: 20px;
           border-radius: 50%;
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          
         }
+
+        
       `}
       </style>
       <div className='home'>

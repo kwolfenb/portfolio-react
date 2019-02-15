@@ -6,6 +6,7 @@ import Contact from './Contact'
 import Home from './Home'
 import Resume from './Resume'
 import ProjectList from './ProjectList'
+import Details from './Details'
 // import PropTypes from 'prop-types'
 
 
@@ -18,6 +19,7 @@ function App () {
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/resume' component={Resume} />
         <Route exact path='/projects' component={ProjectList} />
+        <Route exact path='/details' component={Details} />
       </Switch>
     </div>
   )

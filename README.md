@@ -22,7 +22,7 @@ _This coding portfolio displays information about me in 3 categories: Home, Proj
 - _Program will be updated to include more interactive elements including dynamic routing to individual project pages showing more details and the option to expand descriptions._
 
 
-### Page Layout
+## Page Layout
 
 ![Alt text](src/assets/images/layout.jpg?raw=true "Title")
 

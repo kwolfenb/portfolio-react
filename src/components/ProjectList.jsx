@@ -1,15 +1,14 @@
 import React from 'react'
 
-function About() {
+function ProjectList () {
   return (
     <div>
       <style jsx>{`
-
+      
       `}
       </style>
-      <h1>About</h1>
     </div>
   )
 }
 
-export default About
+export default ProjectList

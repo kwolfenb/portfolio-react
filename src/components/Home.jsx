@@ -1,19 +1,32 @@
 import React from 'react'
+import KW from '../assets/images/kw.jpg'
 
 function Home() {
   return (
-    <div className='home'>
+    <div>
       <style jsx> {`
-        .bio {
-          width: 50%;
+      .home {
+        margin: auto;
+        width: 60%;
+        margin-top: 5%;
+      }
+        img#profile {
+          float: right;
+          margin-right: 5%;
+          margin-left: 20px;
+          border-radius: 50%;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          
         }
       `}
       </style>
-      <div className='bio'>
-        <p><strong>Coding Experience:</strong> Currently studying coding at the Epicodus school in Seattle. Curriculum includes JavaScript, jQuery ReactJS, AngularJS, C# ASP/.NET, HTML, CSS with Bootstrap,</p>
-        <p><strong>Other Professional Experience:</strong> Spent the last 5 years working in healthcare software project management, working with Epic Systems and several large hospital and clinic organizations around the country.</p>
-        <p><strong>Interests/Hobbies: </strong> When I'm not working I enjoy getting outdoors around Seattle, hiking in the mountains, skiing, snowshoeing and rockclimbing.</p>
-        <p><strong>Education: </strong>I graduated from Gonzaga University with a bachelor's degree in Finance and Accounting. Currently I'm learning how to code through Epicodus and several online resources.</p>
+      <div className='home'>
+        <img id='profile' src={KW} />
+        <h3>
+          I'm Kenny Wolfenberger, a full stack web developer and designer.
+        </h3>
+        <p>I am currently studying coding at Epicodus in Seattle. The curriculum includes JavaScript, jQuery ReactJS, AngularJS, C# ASP/.NET, HTML, CSS with Bootstrap,</p>
+        <p>I spent the last 5 years working in healthcare software project management, working with Epic Systems and several large hospital and clinic organizations around the country.</p>
       </div>
     </div>
   )

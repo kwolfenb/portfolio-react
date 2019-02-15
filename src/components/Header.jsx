@@ -15,7 +15,6 @@ function Header() {
         .routes {
           margin: auto;
           width: 50%;
-          border: solid black;
           text-align: center;
         }
       `}
@@ -27,7 +26,7 @@ function Header() {
 
         <button><Link to='/'>Home</Link></button>
         <button><Link to='/projects'>Projects</Link></button>
-        <button><Link to='/about'>About</Link></button>
+        <button><Link to='/contact'>Contact</Link></button>
       </div>
     </div>
   )

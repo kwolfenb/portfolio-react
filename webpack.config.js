@@ -40,15 +40,25 @@ module.exports = {
         options: {
           emitWarning: true,
           configFile: "./.eslintrc.json"
+        }
+      },
+      {
+        test: /\.(png|gif|jp(e*)g|svg)$/,
+        use: {
+          loader: 'url-loader',
+          options: {
+            limit: 8000,
+            name: 'images/[hash]-[name].[ext]'
           }
-        },
+        }
+      },
       {
         test: /\.jsx?$/,
         loader: "babel-loader",
         exclude: /node_modules/,
         options: {
           presets: [
-            ["es2015", {"modules": false}],
+            ["es2015", { "modules": false }],
             "react",
           ],
           plugins: [
@@ -63,7 +73,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin(),
     new HtmlWebpackPlugin({
-      template:'template.ejs',
+      template: 'template.ejs',
       appMountId: 'react-app-root',
       title: 'React Help Queue',
       filename: resolve(__dirname, "build", "index.html"),

@@ -9,7 +9,6 @@
 _This coding portfolio displays information about me in 3 categories: Home, Projects, and Contact. It is a single page application using ReactJS._
 
 
-
 ### Specs
 
 - _Program will display Header on all pages._

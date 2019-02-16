@@ -7,7 +7,6 @@ import Home from './Home'
 import Resume from './Resume'
 import ProjectList from './ProjectList'
 import Details from './Details'
-// import PropTypes from 'prop-types'
 
 
 function App () {

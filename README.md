@@ -31,7 +31,7 @@ _This coding portfolio displays information in 3 categories: Home, Projects, and
 
 ## Page Layout
 
-![Alt text](src/assets/images/layout_updated.jpg?raw=true "Title")
+![Page Layout](src/assets/images/layout.jpg?raw=true "Title")
 
 
 ## Technologies Used

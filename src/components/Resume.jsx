@@ -31,7 +31,7 @@ function Resume() {
               position: absolute;
               top: 4%;
               right: 1%;
-              background-color: gray;
+              background-color: #c1c1c1;
               color: #ad1111;
               font-weight: bolder;
               text-decoration: none;

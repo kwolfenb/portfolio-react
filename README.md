@@ -28,7 +28,7 @@ _This coding portfolio displays information about me in 3 categories: Home, Proj
 
 ## Page Layout
 
-![Alt text](src/assets/images/layout.jpg?raw=true "Title")
+![Alt text](src/assets/images/layout_updated.jpg?raw=true "Title")
 
 
 ## Technologies Used

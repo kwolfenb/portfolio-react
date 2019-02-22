@@ -28,6 +28,15 @@ function Header() {
           font-family: sans-serif;
         }
 
+        .routes button:hover {
+          background: #fff;
+          cursor: pointer;
+        }
+
+        .routes a:hover {
+          color: #7d53ac;
+        }
+
         .routes a {
           text-decoration: none;
           font-weight: bold;

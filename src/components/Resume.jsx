@@ -1,6 +1,6 @@
 import React from 'react'
 import ResumeImg from '../assets/images/resume.jpg'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 
@@ -31,7 +31,7 @@ function Resume() {
               position: absolute;
               top: 4%;
               right: 1%;
-              background-color: gray;
+              background-color: #c1c1c1;
               color: #ad1111;
               font-weight: bolder;
               text-decoration: none;
@@ -45,7 +45,7 @@ function Resume() {
         `}
       </style>
       <div className='resume'>
-        <button id='close'><Link to='/contact'>X</Link></button>
+        <Link to='/contact'><button id='close'>X</button></Link>
         <img src={ResumeImg} />
       </div>
     </div>

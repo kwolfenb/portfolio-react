@@ -29,9 +29,9 @@ _This coding portfolio displays information in 3 categories: Home, Projects, and
 - _To check for error type "npm run lint". To have ESLint attempt to fix these automatically type "npm run lint-fix"._
 - _To run the program type "npm run start" and open application in a browser._
 
-## Page Layout
+## Page Layout Design
 
-![Page Layout](src/assets/images/layout.jpg?raw=true "Title")
+![Page Layout Design](src/assets/images/layoutUpdated.jpg?raw=true "Page Layout Design")
 
 
 ## Technologies Used

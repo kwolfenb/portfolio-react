@@ -32,6 +32,7 @@ function Contact() {
         #resume:hover {
           border: solid #5d53ac 1px;
           box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+          cursor: zoom-in;
         }
       `}
       </style>

@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 function ProjectDetails (props) {
-    
+
+
   return (
     <div>
       <style jsx>{`
@@ -18,12 +19,15 @@ function ProjectDetails (props) {
         #links a:hover{
           text-decoration: underline;
         }
+        .projectDetails:hover {
+          cursor: pointer;
+        }
       `}
       </style>
-      <div className='projectDetails'>
+      <div className='projectDetails' onClick={() => {props.showDetails(props.id)}} >
         <h4 onClick={props.showDetails}>{props.projectName}</h4>
         <p><strong>Description:</strong> {props.info}</p>
-        <p id='links'><a onClick={() => {props.showDetails(props.id)}} >More details </a> | <a href={props.link}>Github Link</a></p>
+        <p id='links'><a>More details </a> | <a href={props.link}>Github Link</a></p>
       </div>
     </div>
   )

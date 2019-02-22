@@ -1,5 +1,7 @@
 import React from 'react'
 import ProjectDetails from './ProjectDetails'
+import ActiveDetails from './ActiveDetails'
+
 import proj1 from '../assets/images/web_clone_img.jpg'
 import proj2 from '../assets/images/type_img.jpg'
 import proj3 from '../assets/images/salon.jpg'
@@ -25,38 +27,6 @@ class ProjectList extends React.Component {
   }
 
   render() {
-
-    let projectDetails = null
-    if (this.state.activeDetails) {
-      projectDetails =
-        <div className='activeDetails'>
-          <h3>Project Name: {this.state.activeDetails.projectName}</h3>
-          <h4>Description:  {this.state.activeDetails.expandedDetails}</h4>
-          <div className='grid-container2'>
-            <div className='grid-item2'>
-              <h4>Technologies Used: </h4>
-              <ul>
-                {this.state.activeDetails.technologies.map((x) => {
-                  return (
-                    <div>
-                      <li>{x}</li>
-                    </div>
-                  )
-                })}
-              </ul>
-            </div>
-            <div className='grid-item2'>
-              <h4>Preview</h4>
-              <img className='projImg' src={this.state.activeDetails.img} />
-            </div>
-            <div className='grid-item2'>
-              <h4>Readme</h4>
-              <img className='projImg' src={this.state.activeDetails.img} />
-            </div>
-          </div>
-        </div>
-    }
-
     return (
       <div>
         <style jsx>{`
@@ -78,28 +48,6 @@ class ProjectList extends React.Component {
         .grid-item:hover {
           background: linear-gradient(#dbe7ff, white);
         }
-
-        .activeDetails {
-          border: solid black;
-          width: 75%;
-          margin: auto;
-          padding: 5px;
-        }
-
-        .grid-container2 {
-          display: grid;
-          grid-template-columns: auto auto auto;
-        }
-
-        .grid-item2 ul {
-          list-style: none;
-        }
-
-        img.projImg{
-          width: 350px;
-          height: auto;
-        }
-
       `}
         </style>
         <div className='grid-container'>
@@ -118,7 +66,9 @@ class ProjectList extends React.Component {
         </div>
         <hr />
         <div>
-          {projectDetails}
+          <ActiveDetails 
+            activeDetails={this.state.activeDetails}
+          />
         </div>
       </div>
     )

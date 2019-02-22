@@ -3,6 +3,12 @@ import PropTypes from 'prop-types'
 import {Link} from 'react-router-dom'
 
 function ProjectDetails (props) {
+  let expandedDetails =
+  
+    <div>
+      <img src={props.img} />
+    </div>
+    
   return (
     <div>
       <style jsx>{`
@@ -21,9 +27,9 @@ function ProjectDetails (props) {
       `}
       </style>
       <div className='projectDetails'>
-        <h4>{props.projectName}</h4>
+        <h4 onClick={props.showDetails}>{props.projectName}</h4>
         <p><strong>Description:</strong> {props.info}</p>
-        <p id='links'><Link to='/details'>More details</Link> | <a href={props.link}>Github Link</a></p>
+        <p id='links'><a onClick={() => {props.showDetails(props.id)}} >More details </a> | <a href={props.link}>Github Link</a></p>
       </div>
     </div>
   )
@@ -34,5 +40,8 @@ export default ProjectDetails
 ProjectDetails.propTypes = {
   projectName: PropTypes.string,
   info: PropTypes.string, 
-  link: PropTypes.string
+  link: PropTypes.string,
+  img: PropTypes.string,
+  id: PropTypes.number,
+  showDetails: PropTypes.func
 }

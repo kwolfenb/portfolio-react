@@ -6,13 +6,16 @@
 
 ## Description
 
-_This coding portfolio displays information about me in 3 categories: Home, Projects, and Contact. It is a single page application using ReactJS._
+_This coding portfolio displays information in 3 categories: Home, Projects, and Contact. It is a single page application using ReactJS._
 
 
 ### Specs
 
 - _Program will display Header on all pages._
 - _Program will use React Routing to navigate between the Home page, Projects page, and Contact page._
+- _Program uses Stateful components where dynamic state changes are needed, such as in the Project details tab._
+- _Program uses static components when states are not needed such as in the Header component._
+- _When a user clicks on a project, a details section will appear below. If the user clicks the preview image, a larger verion of the image will display showing a sample of the specified project._
 - _Program imports images and displays them using base64 encoding._
 - _Program contains external links to Github and LinkedIn profiles._
 

@@ -83,8 +83,8 @@ const Projects = [
     info: 'Clone of the Eddie Bauer website using TypeScript and Angular.',
     link: 'https://github.com/kwolfenb/Website-Clone-Angular',
     img: proj1,
-    expandedDetails: 'A C# application that is connected to a SQL database with tables for Stylists and Clients. Users can add to the Client lists for each individual Stylist. Any time a Client is added, it must be associated with a Stylist. Stylist table includes details such as name, address, phone number and Client list.',
-    technologies: ['C#', 'ASP/.Net', 'MSTests', 'MVC', 'Razor', 'Mono', 'SQL',],
+    expandedDetails: 'Clone of the Eddie Bauer website using TypeScript and Angular. This application demonstrates a wide variety of Angular functionality to mimic the look and feel of a well-trafficked public website',
+    technologies: ['Angular CLI 1.6.5', 'TypeScript', 'JavScript', 'Node Package Manager', 'JSON', 'Webpack', 'Babel', 'Terminal', 'Eddie Bauer webpage'],
   },
   {
     projectName: 'Type Racer',

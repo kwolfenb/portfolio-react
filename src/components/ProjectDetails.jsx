@@ -1,13 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Link} from 'react-router-dom'
 
 function ProjectDetails (props) {
-  let expandedDetails =
-  
-    <div>
-      <img src={props.img} />
-    </div>
     
   return (
     <div>

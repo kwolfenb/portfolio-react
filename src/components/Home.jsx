@@ -75,8 +75,49 @@ function Home() {
           <div className='gridItem'>
             <h5>Unity</h5>
           </div>
-
-
+        </div>
+        <h4>Other</h4>
+        <div className='underline'></div>
+        <div className='other'>
+          <div className='gridItem'>
+            <h5>HTML / HTML5</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>CSS</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>TypeScript</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>NodeJS</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>Behavior-Driven Development</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>Unit Testing</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>SQL / MySQL Databses</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>Web API Development</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>Project Management</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>Git / Change Management</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>Printer Command Language</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>Epic Systems EHR</h5>
+          </div>
+          <div className='gridItem'>
+            <h5>Firebase</h5>
+          </div>
         </div>
       </div>
     </div>

@@ -48,7 +48,7 @@ function Header() {
         Kenny Wolfenberger Project Portfolio
       </h1>
       <div className='routes'>
-        <button><Link to='/'>Home</Link></button>
+        <button><Link to='/'>About</Link></button>
         <button><Link to='/projects'>Projects</Link></button>
         <button><Link to='/contact'>Contact</Link></button>
       </div>

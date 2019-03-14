@@ -7,13 +7,13 @@ function Header() {
       <style jsx> {`
         .header {
           align-content: center;
-          background-color: #a69cb7;
+          background-color: #666a99;
         }
         .header h1 {
           padding-top: 20px;
           text-align: center;
           font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-          text-shadow: 1px 1px 4px white;
+          text-shadow: 1px 1px 6px white, -1px -1px 6px white;
         }
         .routes {
           margin: auto;

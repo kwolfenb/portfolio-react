@@ -40,16 +40,14 @@
   background-image: linear-gradient(135deg, #27184f 70%, #7dc4ba 85%);
   color: #77ffec;
   border-radius: 5px;
-  opacity: 0.9;
   box-shadow: 2px 2px 3px #aaaaaa;
-  transition: color 0.5s, transform 0.5s, opacity 0.5s, box-shadow 0.5s; 
-  -webkit-transition: color 05.s, transform 0.5s, opacity 0.5s, box-shadow 0.5s;
+  transition: color 0.5s, transform 0.5s, box-shadow 0.5s; 
+  -webkit-transition: color 05.s, transform 0.5s, box-shadow 0.5s;
 }
 
 .gridItem:hover {
   color: #c4fff6;
   transform: scale(1.07);
-  opacity: 1;
   box-shadow: 3px 3px 4px #9af8ff;
 }
 

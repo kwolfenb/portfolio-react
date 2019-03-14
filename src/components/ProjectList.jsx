@@ -7,7 +7,7 @@ import proj2 from '../assets/images/type_img.jpg'
 import proj3 from '../assets/images/salon.jpg'
 import proj4 from '../assets/images/storefinder.jpg'
 import proj5 from '../assets/images/tamagotchi.jpg'
-import proj6 from '../assets/images/age.jpg'
+import proj6 from '../assets/images/color.jpg'
 
 class ProjectList extends React.Component {
 
@@ -79,6 +79,14 @@ export default ProjectList
 
 const Projects = [
   {
+    projectName: 'Color Scheme Generator',
+    info: 'Web application takes user input to generate a 5-color scheme and apply it to webpage design templates.',
+    link: 'https://github.com/kwolfenb/capstone-project.git',
+    img: proj6,
+    expandedDetails: 'Web application that assists users in creating color schemes for their websites and provides sample templates to demonstrate these schemes. Users can choose colors or pictures which are analyzed by the application to generate a 5-color palette. Uses React with Redux for state management and 3 different web APIs.',
+    technologies: ['React', 'Redux', 'JavScript', 'SightEngine API', 'Color Mind API', 'The Color API', 'JSON', 'Webpack', 'Babel', 'Terminal'],
+  },
+  {
     projectName: 'Website Clone',
     info: 'Clone of the Eddie Bauer website using TypeScript and Angular.',
     link: 'https://github.com/kwolfenb/Website-Clone-Angular',
@@ -117,13 +125,5 @@ const Projects = [
     img: proj5,
     expandedDetails: 'User can interact with Tamagotchi in many different ways: feed, exercise, give Gameboy, give pills, harvest gems, and wrestle opponents.  Interactions have effects on Tamagotchi\'s health, food level and happiness levels. When wrestling opponents, the program will simulate moves from each player based on stats and will determine winner. Game is won if Tamagotchi achieves age of "Geezer"',
     technologies: ['C#', 'ASP/.Net', 'MSTests', 'MVC', 'Razor', 'Mono', 'SQL',]
-  },
-  {
-    projectName: 'Age Calculator',
-    info: 'JavaScript application that calculates a user\'s age on other planets based on inputted date.',
-    link: 'https://github.com/kwolfenb/age-calculator-webpack-js',
-    img: proj6,
-    expandedDetails: 'JavaScript application that calculates a user\'s age on other planets based on inputted date. Users can interact with the application by entering a birth date and clicking on planets.',
-    technologies: ['JavaScript', 'Node Package Manager (NPM)', 'JSON', 'Webpack', 'ESLint', 'Jasmine/Karma testing', 'Babel',]
   }
 ]

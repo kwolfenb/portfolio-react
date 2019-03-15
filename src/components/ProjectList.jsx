@@ -43,7 +43,7 @@ class ProjectList extends React.Component {
           margin: 10px;
           background: linear-gradient(#a4aed6, white);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
-        }
+        } 
 
         .grid-item:hover {
           background: linear-gradient(#dbe7ff, white);

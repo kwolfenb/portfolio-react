@@ -29,10 +29,10 @@ function Home() {
       <div className='home'>
         <img id='profile' src={KW} />
         <h3>
-          I'm Kenny Wolfenberger, a full stack web developer and designer.
+          I'm Kenny Wolfenberger, a full stack Web Developer and Project Manager.
         </h3>
-        <p>I am currently studying coding at Epicodus in Seattle. The curriculum includes JavaScript, jQuery ReactJS, AngularJS, C# ASP/.NET, HTML, CSS with Bootstrap,</p>
-        <p>I spent the last 5 years working in healthcare software project management, working with Epic Systems and several large hospital and clinic organizations around the country.</p>
+        <p>I studied coding at Epicodus in Seattle. The full-time, 6 month curriculum includes JavaScript, React with Redux, Angular, and C# MVC with ASP/.NET.</p>
+        <p>Prior to becoming a programmer, I spent 5 years working in healthcare software project management, working with Epic Systems and several large hospital and clinic organizations around the country.</p>
       </div>
       <div className="skills">
         <h4>Languages</h4>

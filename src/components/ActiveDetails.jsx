@@ -68,8 +68,8 @@ class ActiveDetails extends React.Component {
         <style jsx>
           {`
         .activeDetails {
-          background: #e8fff6;
-          border: solid #049100 1px;
+          background: #f2f6ff;
+          border: solid #717f99 1px;
           border-radius: 3px;
           width: 75%;
           margin: auto;

@@ -26,6 +26,7 @@ function Header() {
           width: 70px;
           border-radius: 3px;
           font-family: sans-serif;
+          transition: 0.3s;
         }
 
         .routes button:hover {
@@ -33,15 +34,17 @@ function Header() {
           cursor: pointer;
         }
 
-        .routes a:hover {
-          color: #7d53ac;
-        }
-
         .routes a {
           text-decoration: none;
           font-weight: bold;
           color: #583b7a;
+          transition: 0.3s;
         }
+
+        .routes a:hover {
+          color: #7d53ac;
+        }
+
       `}
       </style>
       <h1>

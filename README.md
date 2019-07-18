@@ -28,7 +28,7 @@ _This coding portfolio displays information in 3 categories: Home, Projects, and
 - _Download all packages by typing "npm install" in the terminal._
 - _To check for error type "npm run lint". To have ESLint attempt to fix these automatically type "npm run lint-fix"._
 - _To run the program type "npm run start" and open application in a browser._
-- _To view the deployed webpage on Gh-pages go to [https://kwolfenb.github.io/Professional-Portfolio-with-React/](https://kwolfenb.github.io/Professional-Portfolio-with-React/)._
+- _To view the deployed webpage on Gh-pages go to [https://kwolfenb.github.io/Professional-Portfolio-React/](https://kwolfenb.github.io/Professional-Portfolio-with-React/)._
 
 
 
